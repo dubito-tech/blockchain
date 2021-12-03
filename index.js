@@ -86,8 +86,7 @@ app.post("/new", function(req, res) {
         if(err){
           console.log(err);
         } else {
-          //redirect back to bizcanvasd page
-          res.redirect("/");
+          res.redirect("/index.html");
         }
       });
     }
@@ -97,5 +96,5 @@ app.post("/new", function(req, res) {
 // App listner
 // ===================
 app.listen(port,process.env.IP,function(){
-  console.log("Blockchian server is up...");
+  console.log("Blockchain server is up...");
 });

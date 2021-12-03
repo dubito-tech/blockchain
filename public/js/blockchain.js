@@ -1,5 +1,3 @@
-
-
 class Block {
   constructor(index, timestamp, data, prevHash = '', hash = '', salt = 0) {
     this.index = index;
